@@ -5,7 +5,7 @@
 }
 h1{
     text-align: center;
-    margin-top: 30px;
+    margin: 30px auto ;
 }
 .container{
     border: 1px solid black;
@@ -13,25 +13,30 @@ h1{
     margin: 50px auto;
     padding: 16px;
     border-radius: 16px;
-    
 }
 .container input{
     width: 100%;
     padding: 16px;
     border: none;
-    border-bottom: 1px solid black;
+    /* border-bottom: 1px solid black; */
     font-size: 24px;
     text-align: right;
+    background-color: black;
+    border-radius: 12px;
+    margin-bottom: 6px;
+    color: white;
 }
 .btn-container table{
     width: 100%;
 
 }
 .btn-container td {
-    padding: 16px;
+    padding: 18px;
     text-align: center;
     font-weight: bold;
     cursor: pointer;
     font-size: 24px;
     background-color: rgb(238, 250, 66);
+    border-radius: 12px;
 }
+
